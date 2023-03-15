@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;   /* to hide the scroll bar */
+}
+
+span{
+    background: url(https://cdn2.iconfinder.com/data/icons/summer-231/512/straw_hat-512.png);   /* image url */
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    pointer-events: none;   /* to prevent the image from being clicked */
+    background-size: cover;  /* to cover the whole span */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 6s linear;   /* animation name, duration, timing function */
+}
+
+@keyframes animate {    /* animation name */
+    0%{   /* starting position */
+        transform: translate(-50%, -50%);   /* to move the image to the center */
+        opacity: 1;  /* to make the image visible */
+    }
+    100%{   /* ending position */
+        transform: translate(-50%, -5000%);  /* to move the image out of the screen */
+        opacity: 0; /* to make the image invisible */
+    }
+}
