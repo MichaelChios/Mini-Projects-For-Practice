@@ -6,7 +6,7 @@ body{
 }
 
 span{
-    background: url(https://cdn2.iconfinder.com/data/icons/summer-231/512/straw_hat-512.png);   /* image url */
+    background: url(...);   /* image url */
     width: 100px;
     height: 100px;
     position: absolute;
