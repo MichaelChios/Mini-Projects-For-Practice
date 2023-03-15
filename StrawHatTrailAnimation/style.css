@@ -6,7 +6,7 @@ body{
 }
 
 span{
-    background: url(...);   /* image url */
+    background: url(...);   /* image icon url */
     width: 100px;
     height: 100px;
     position: absolute;
